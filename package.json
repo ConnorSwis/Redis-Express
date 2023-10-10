@@ -1,0 +1,28 @@
+{
+  "name": "redis-express",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "redis-om": "^0.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
